@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rn2sg1vvr80h"
-path="res://.godot/imported/pelerkuda123.png-758e34424c1169905b152b01e652248a.ctex"
+uid="uid://cgs2qajf4xnwh"
+path="res://.godot/imported/capek_fixed.png-ee815979e57f232ede687fc22d130455.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pelerkuda123.png"
-dest_files=["res://.godot/imported/pelerkuda123.png-758e34424c1169905b152b01e652248a.ctex"]
+source_file="res://assets/capek_fixed.png"
+dest_files=["res://.godot/imported/capek_fixed.png-ee815979e57f232ede687fc22d130455.ctex"]
 
 [params]
 
