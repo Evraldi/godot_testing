@@ -21,6 +21,20 @@ offset_right = 32.0
 offset_bottom = 32.0
 color = Color(5.8719515e-06, 0.57010674, 0.84167784, 1)
 
+[node name="HPBarBG" type="ColorRect" parent="."]
+offset_left = -32.0
+offset_top = -44.0
+offset_right = 32.0
+offset_bottom = -40.0
+color = Color(0, 0, 0, 0.7)
+
+[node name="HPBarFill" type="ColorRect" parent="."]
+offset_left = -31.0
+offset_top = -43.0
+offset_right = 31.0
+offset_bottom = -41.0
+color = Color(0.9, 0.2, 0.2, 1)
+
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 position = Vector2(-20, 0)
 

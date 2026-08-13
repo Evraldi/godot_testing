@@ -1,8 +1,10 @@
 extends Area2D
 
-var speed = 600
+var speed = 240.0
 var direction = Vector2(1, 0)
-var damage = 1
+
+func _ready():
+	add_to_group("enemy_bullet")
 
 func _physics_process(delta):
 	var motion: Vector2 = direction * speed * delta
@@ -12,8 +14,8 @@ func _physics_process(delta):
 	var hit := space.intersect_ray(query)
 	if not hit.is_empty():
 		var body = hit.collider
-		if body and body.is_in_group("enemy") and body.has_method("take_damage"):
-			body.take_damage(damage)
+		if body and body.is_in_group("player") and body.has_method("take_damage"):
+			body.take_damage(1)
 		queue_free()
 		return
 	global_position += motion
